@@ -1,0 +1,12 @@
+
+{% block content %}
+<h1>Welcome to team_leads page</h1>
+
+<h2>
+    {% for team_lead in team_leads %}
+    <h1> {{ team_lead }} </h1>
+
+    {% endfor %}
+</h2>
+
+{% endblock %}

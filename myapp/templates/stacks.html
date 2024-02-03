@@ -1,0 +1,13 @@
+
+
+{% block content %}
+<h1>Welcome to stacks page</h1>
+
+<h2>
+    {% for stack in stacks %}
+    <h1> {{ stack }} </h1>
+
+    {% endfor %}
+</h2>
+
+{% endblock %}

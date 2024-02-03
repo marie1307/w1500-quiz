@@ -1,0 +1,12 @@
+
+
+{% block content %}
+<h1>Welcome to employees page </h1>
+
+<h2>
+    {% for employee in employees %}
+    <h1> {{ employee }} </h1>
+    {% endfor %}
+</h2>
+
+{% endblock %}
